@@ -1,0 +1,5 @@
+numbers = [1, 200, 900, 300, 1000, 5]
+
+numbers.sort do |x, y|
+  y <=> x
+  end
